@@ -79,7 +79,7 @@
 }
 
 .section3>p,
-h1 {
+.section3>h1 {
     text-align: center;
 }
 
@@ -97,7 +97,7 @@ h1 {
 }
 
 .sect3cards p,
-h4 {
+.sect3cards h4 {
     text-align: center;
 }
 
@@ -105,6 +105,25 @@ h4 {
     column-gap: 30px;
     row-gap: 20px;
 }
+
+.section4image{
+    width: 70%;
+}
+
+.section4{
+    padding-top: 100px;
+}
+
+.section4card {
+
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* width: 330px; */
+
+}
+
+
 
 
 
@@ -235,24 +254,18 @@ h4 {
     .logoimage {
         width: 54px !important;
         object-fit: contain;
-        /* height: "60" !important; */
     }
 
     .logohead {
-        /* width: 228px;
-    height: 47px; */
         font-size: 30px;
         font-weight: 700;
     }
 
     .section2 {
         height: 140vh;
-        /* display: block; */
-        /* flex-direction: row-reverse; */
         justify-content: center;
         row-gap: 3px;
-        /* background-color: gold; */
-        /* height:max-content; */
+       
     }
 
     .section2content {
@@ -295,7 +308,6 @@ h4 {
 
     .section2btn {
         width: 100px !important;
-        /* height: 40px !important; */
         padding: 4px !important;
         font-size: 15px !important;
         border-radius: 5px !important;
@@ -306,8 +318,31 @@ h4 {
     .section2images {
         display: flex;
         justify-content: center;
-        /* position: static; */
         order: 1;
+    }
+
+    .section3 {
+        background-color: bisque;
+        justify-content: flex-start;
+    }
+
+    .section3card {
+        padding: 10px;
+        width: 250px;
+
+    }
+
+    .sect3cards {
+        column-gap: 20px;
+        row-gap: 10px;
+    }
+
+    .sect3cards p {
+        font-size: 14px;
+    }
+
+    .sect3cards h4 {
+        font-size: 18px;
     }
 }
 
@@ -315,12 +350,11 @@ h4 {
     .logoimage {
         width: 44px !important;
         object-fit: contain;
-        /* height: "60" !important; */
+       
     }
 
     .logohead {
-        /* width: 228px;
-    height: 47px; */
+
         font-size: 25px;
         font-weight: 700;
     }
