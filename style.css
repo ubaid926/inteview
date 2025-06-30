@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'GothicA1-Regular';
+    /* Name your font family */
+    src: url('./fonts/Gothic_A1.zip/GothicA1-Regular.ttf');
+    /* Locate the .ttf file within your directory*/
+}
+
+
+.orangecustom {
+    background-color: #FF5349;
+}
+
+.whitefont {
+    color: white;
+
+}
+
+.gothicfont {
+    font-family: GothicA1-Regular;
+}
+
+.logoimage {
+    width: 74px;
+    /* height: 80px; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logohead {
+    /* width: 228px;
+    height: 47px; */
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section2 {
+    height: 75vh;
+}
+
+.section2content>h1 {
+    /* font-size: 70px; */
+    text-transform: capitalize;
+}
+
+.section2btn {
+    color: #FF5349 !important;
+    background-color: white !important;
+    width: 200px !important;
+    font-weight: bolder;
+}
+
+.section2img1 {
+    width: 75%;
+}
+
+.section2img2 {
+    top: 25px;
+    left: -60px;
+    width: 65%;
+}
+
+.section2img3 {
+    bottom: 35px;
+    right: 30px;
+    width: 55%;
+}
+
+.whitebg {
+    background-color: #F2F2F2;
+}
+
+.section3 {
+    padding-top: 100px;
+    /* background-color: aqua; */
+
+}
+
+.section3>p,
+h1 {
+    text-align: center;
+}
+
+.section3>p {
+    font-weight: bold;
+}
+
+.section3card {
+
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 330px;
+
+}
+
+.sect3cards p,
+h4 {
+    text-align: center;
+}
+
+.sect3cards {
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .section2 {
+        height: 60vh;
+    }
+
+    .section2content>h1 {
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    .section2content>p {
+        font-size: 15px;
+    }
+
+    .section2img1 {
+        width: 75% !important;
+    }
+
+    .section2img2 {
+        top: 23px;
+        left: -40px;
+        width: 60% !important;
+    }
+
+    .section2img3 {
+        bottom: 40px;
+        right: 25px;
+        width: 50% !important;
+    }
+
+    .section2btn {
+        width: 180px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .section2 {
+        height: 48vh;
+    }
+
+    .section2content>h1 {
+        font-size: 26px;
+        line-height: 24px;
+    }
+
+    .section2content>p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .section2img1 {
+        width: 65% !important;
+    }
+
+    .section2img2 {
+        top: 23px;
+        left: -40px;
+        width: 42% !important;
+    }
+
+    .section2img3 {
+        bottom: 0px;
+        /* right: 20px; */
+        left: 120px;
+        width: 32% !important;
+    }
+
+    .section2btn {
+        width: auto !important;
+        /* height: 40px !important; */
+        padding: 4px !important;
+        font-size: 15px !important;
+        border-radius: 5px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section2 {
+        height: 48vh;
+    }
+
+    .section2content>h1 {
+        font-size: 26px;
+        line-height: 24px;
+    }
+
+    .section2content>p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .section2img1 {
+        width: 50% !important;
+    }
+
+    .section2img2 {
+        top: 17px;
+        left: 45px;
+        width: 38% !important;
+    }
+
+    .section2img3 {
+        bottom: 0px;
+        /* right: 2px; */
+        left: 190px;
+        width: 32% !important;
+    }
+
+    .section2btn {
+        width: auto !important;
+        /* height: 40px !important; */
+        padding: 4px !important;
+        font-size: 15px !important;
+        border-radius: 5px !important;
+    }
+
+    .section2images {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logoimage {
+        width: 54px !important;
+        object-fit: contain;
+        /* height: "60" !important; */
+    }
+
+    .logohead {
+        /* width: 228px;
+    height: 47px; */
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .section2 {
+        height: 140vh;
+        /* display: block; */
+        /* flex-direction: row-reverse; */
+        justify-content: center;
+        row-gap: 3px;
+        /* background-color: gold; */
+        /* height:max-content; */
+    }
+
+    .section2content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        order: 2;
+    }
+
+    .section2content>h1 {
+        font-size: 28px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .section2content>p {
+        font-size: 15px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .section2img1 {
+        width: 50% !important;
+        position: static !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section2img2 {
+        top: 19px;
+        left: 75px;
+        width: 38% !important;
+    }
+
+    .section2img3 {
+        bottom: -90px;
+        left: 270px;
+        width: 32% !important;
+    }
+
+    .section2btn {
+        width: 100px !important;
+        /* height: 40px !important; */
+        padding: 4px !important;
+        font-size: 15px !important;
+        border-radius: 5px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .section2images {
+        display: flex;
+        justify-content: center;
+        /* position: static; */
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .logoimage {
+        width: 44px !important;
+        object-fit: contain;
+        /* height: "60" !important; */
+    }
+
+    .logohead {
+        /* width: 228px;
+    height: 47px; */
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .logo {
+        padding: 0px !important;
+    }
+
+    .section2 {
+        height: 105vh;
+        justify-content: center;
+        row-gap: 3px;
+    }
+
+    .section2content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        order: 2;
+    }
+
+    .section2content>h1 {
+        font-size: 28px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .section2content>p {
+        font-size: 15px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .section2img1 {
+        width: 50% !important;
+        position: static !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section2img2 {
+        top: 19px;
+        left: 55px;
+        width: 38% !important;
+    }
+
+    .section2img3 {
+        bottom: -40px;
+        left: 160px;
+        width: 32% !important;
+    }
+
+    .section2btn {
+        width: 100px !important;
+        /* height: 40px !important; */
+        padding: 4px !important;
+        font-size: 15px !important;
+        border-radius: 5px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .section2images {
+        display: flex;
+        justify-content: center;
+        order: 1;
+    }
+}
