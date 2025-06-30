@@ -180,23 +180,50 @@
 
 .section6 {
     color: white;
-    height: 65vh;
+    height: 80vh;
     /* width: 85%; */
-    padding-top: 70px;
-    padding: 40px;
+    padding-top: 52px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    /* padding-bottom: 50px; */
     display: flex;
-    justify-content:space-between;
-    align-items: start;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* flex-direction: column; */
     border-radius: 16px;
 }
 
 .sect6content {
     max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 80px;
+    /* background-color: yellow; */
 }
 
-.section6images img {
+.sect6content>p {
+    width: 130%;
+}
+
+.sect6content>h1 {
+    width: 130%;
+}
+
+.section6btn {
+    color: #FF5349 !important;
+    background-color: white !important;
+    font-weight: bolder;
+    width: 150px !important;
+}
+
+.sect6image1,
+.sect6image2 {
     max-width: 300px;
+}
+
+.section6images {
+    padding-right: 20px;
 }
 
 
@@ -318,6 +345,40 @@
         padding: 15px;
 
     }
+
+    .sect6image1,
+    .sect6image2 {
+        width: 250px;
+    }
+
+    .section6images {
+        padding-right: 15px;
+    }
+
+    .sect6content {
+        row-gap: 8px;
+        padding-left: 40px;
+        /* background-color: yellow; */
+    }
+
+    .section6btn {
+        width: 135px !important;
+        padding: 4px !important;
+        font-size: 15px !important;
+    }
+
+    .sect6content>p {
+        width: 150%;
+    }
+
+    .sect6content>h1 {
+        width: 150%;
+    }
+
+    .section6 {
+        height: 67vh;
+        padding-top: 45px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -354,7 +415,6 @@
 
     .section2btn {
         width: auto !important;
-        /* height: 40px !important; */
         padding: 4px !important;
         font-size: 15px !important;
         border-radius: 5px !important;
@@ -420,6 +480,45 @@
     }
 
 
+    .sect6image1,
+    .sect6image2 {
+        width: 173px;
+    }
+
+    .section6images {
+        padding-right: 15px;
+
+    }
+
+    .sect6content {
+        row-gap: 0px;
+        padding-left: 20px;
+
+        /* background-color: yellow; */
+    }
+
+    .section6btn {
+        width: 125px !important;
+        padding: 4px !important;
+        font-size: 15px !important;
+    }
+
+    .sect6content>p {
+        width: 150%;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .sect6content>h1 {
+        width: 150%;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .section6 {
+        height: 47vh;
+        padding-top: 36px;
+    }
 
 }
 
@@ -536,20 +635,12 @@
         justify-content: center;
     }
 
-    /* .section4content>h1{
-        t
-    } */
-
     .section4cards p,
     .section4content>h1,
     .section4cards h4,
     .section4content>p {
         text-align: center;
     }
-
-    /* .section4cards h4{
-        text-align: center;
-    } */
 
     .sect5card {
         padding: 10px;
@@ -566,6 +657,44 @@
 
     .section5cards h4 {
         font-size: 18px;
+    }
+
+
+    .sect6image1,
+    .sect6image2 {
+        width: 133px;
+    }
+
+    .section6images {
+        padding-right: 10px;
+        padding-top: 7px;
+    }
+
+    .sect6content {
+        row-gap: 0px;
+        padding-left: 10px;
+    }
+
+    .section6btn {
+        width: 105px !important;
+        font-size: 15px !important;
+    }
+
+    .sect6content>p {
+        width: 150%;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .sect6content>h1 {
+        width: 150%;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .section6 {
+        height: 37vh;
+        padding-top: 26px;
     }
 
 }
@@ -651,4 +780,43 @@
         flex-wrap: wrap;
         row-gap: 10px;
     }
+
+    .sect6image1,
+    .sect6image2 {
+        width: 80px;
+    }
+
+    .section6images {
+        padding-right: 0px;
+        padding-top: 54px;
+    }
+
+    .sect6content {
+        row-gap: 0px;
+        padding-left: 0px;
+    }
+
+    .section6btn {
+        width: 80px !important;
+        font-size: 12px !important;
+        border-radius: 5px !important;
+    }
+
+    .sect6content>p {
+        width: 175%;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .sect6content>h1 {
+        width: 170%;
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .section6 {
+        height: 30vh;
+        padding-top: 16px;
+    }
+
 }
