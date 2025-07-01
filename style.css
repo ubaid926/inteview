@@ -227,13 +227,16 @@
     padding-right: 20px;
 }
 
+
+
 .section7 {
     padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-color: aquamarine; */
+
 }
 
 .section7>h1 {
@@ -269,7 +272,7 @@
     display: flex;
 }
 
-.details>div{
+.details>div {
     padding: 7px;
     display: flex;
     flex-direction: column;
@@ -284,12 +287,86 @@
     align-items: center;
 }
 
-.name{
+.name {
     font-weight: 600;
 }
 
-.hide{
-    opacity: 0.3 ;
+.hide {
+    opacity: 0.3;
+}
+
+.section8 {
+    color: white;
+    height: 78vh;
+    /* width: 85%; */
+    padding-top: 32px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    /* padding-bottom: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* flex-direction: column; */
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.sect8content {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 80px;
+    /* background-color: yellow; */
+}
+
+.sect8content>p {
+    width: 70%;
+}
+
+.sect8content>h1 {
+    width: 100%;
+}
+
+.section8btn {
+    color: black !important;
+    background-color: white !important;
+    width: 200px !important;
+    font-size: 10px !important;
+    padding: 5px !important;
+    border-radius: 25px !important;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.section8btnp {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.section8btn>div {
+    display: inline-block;
+    line-height: 4px;
+}
+
+.section8btn i {
+    /* display: block; */
+    font-size: 19px;
+    margin: 2px;
+}
+
+.sect8image1,
+.sect8image2 {
+    max-width: 284px;
+}
+
+.section8images {
+    padding-right: 20px;
+}
+
+.sect8btns {
+    display: flex;
+    gap: 10px;
 }
 
 
@@ -358,13 +435,40 @@
         padding: 15px;
     }
 
-    /* .section4images{
-        background-color: bisque;
-
+    .section7card {
+        width: 280px;
     }
-    .section4content{
-        background-color: yellow;
-    } */
+
+    .section7cardbtn {
+        width: 280px;
+    }
+
+    .sect8content>p {
+        width: 90%;
+    }
+
+    .sect8content>h1 {
+        width: 120%;
+    }
+
+    .sect8content {
+        padding-left: 60px;
+    }
+
+    .sect8image1,
+    .sect8image2 {
+        max-width: 254px;
+    }
+
+    .section8 {
+        height: 70vh;
+        padding-top: 30px;
+    }
+
+    .section8btn {
+        width: 180px !important;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -394,14 +498,12 @@
 
     .section2img3 {
         bottom: 0px;
-        /* right: 20px; */
         left: 120px;
         width: 32% !important;
     }
 
     .section2btn {
         width: auto !important;
-        /* height: 40px !important; */
         padding: 4px !important;
         font-size: 15px !important;
         border-radius: 5px !important;
@@ -424,7 +526,6 @@
     .sect6content {
         row-gap: 8px;
         padding-left: 40px;
-        /* background-color: yellow; */
     }
 
     .section6btn {
@@ -444,6 +545,59 @@
     .section6 {
         height: 67vh;
         padding-top: 45px;
+    }
+
+
+    .section7cardbtn {
+        width: 255px;
+    }
+
+    .section7card {
+        padding: 15px;
+        width: 255px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 7px;
+    }
+
+
+
+    .section7cards {
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .sect8image1,
+    .sect8image2 {
+        max-width: 234px;
+    }
+
+    .section8btn {
+        width: 160px !important;
+    }
+
+
+    .sect8content {
+        padding-left: 25px;
+    }
+
+    .sect8content>h1 {
+        width: 130%;
+    }
+
+    .section8 {
+        height: 65vh;
+
+    }
+
+    .sect8btns {
+
+        flex-direction: column;
+    }
+
+    .sect8content>p {
+        font-size: 14px;
+        width: 100%;
     }
 }
 
@@ -474,17 +628,11 @@
 
     .section2img3 {
         bottom: 0px;
-        /* right: 2px; */
         left: 190px;
         width: 32% !important;
     }
 
-    .section2btn {
-        width: auto !important;
-        padding: 4px !important;
-        font-size: 15px !important;
-        border-radius: 5px !important;
-    }
+
 
     .section2images {
         display: flex;
@@ -494,7 +642,6 @@
     .section3card {
         padding: 20px;
         width: 330px;
-
     }
 
 
@@ -559,8 +706,6 @@
     .sect6content {
         row-gap: 0px;
         padding-left: 20px;
-
-        /* background-color: yellow; */
     }
 
     .section6btn {
@@ -584,6 +729,50 @@
     .section6 {
         height: 47vh;
         padding-top: 36px;
+    }
+
+    .section7cardbtn {
+        width: 250px;
+        order: 9;
+    }
+
+    .section7card {
+        padding: 12px;
+        width: 45%;
+        font-size: 14px;
+    }
+
+    .section7cards {
+        gap: 15px;
+        justify-content: center;
+    }
+
+
+    .sect8image1,
+    .sect8image2 {
+        max-width: 203px;
+    }
+
+
+
+
+    .sect8content {
+        padding-left: 20px;
+    }
+
+    .sect8content>h1 {
+        width: 140%;
+        font-size: 25px;
+    }
+
+    .section8 {
+        height: 57vh;
+
+    }
+
+    .sect8content>p {
+
+        width: 120%;
     }
 
 }
@@ -763,6 +952,43 @@
         padding-top: 26px;
     }
 
+
+    .sect8image1,
+    .sect8image2 {
+        max-width: 160px;
+    }
+
+    .section8btn {
+        width: 130px !important;
+        height: 40px !important;
+    }
+
+
+    .sect8content {
+        padding-left: 10px;
+
+    }
+
+    .sect8content>h1 {
+        width: 200%;
+        font-size: 22px;
+    }
+
+    .section8 {
+        height: 50vh;
+        padding-top: 22px;
+    }
+
+    .sect8content>p {
+        font-size: 12px;
+        width: 160%;
+    }
+
+    .section8images {
+        padding-right: 10px;
+        padding-top: 34px;
+    }
+
 }
 
 @media screen and (max-width: 340px) {
@@ -773,7 +999,6 @@
     }
 
     .logohead {
-
         font-size: 25px;
         font-weight: 700;
     }
@@ -828,7 +1053,6 @@
 
     .section2btn {
         width: 100px !important;
-        /* height: 40px !important; */
         padding: 4px !important;
         font-size: 15px !important;
         border-radius: 5px !important;
@@ -883,6 +1107,90 @@
     .section6 {
         height: 30vh;
         padding-top: 16px;
+    }
+
+    .section7card {
+        width: 100%;
+    }
+
+    .hideonsmall {
+        display: none;
+    }
+
+
+    .sect8image1,
+    .sect8image2 {
+        max-width: 80px;
+        
+    }
+    
+    .sect8image2{
+        height: 190px;
+        
+    }
+    .sect8image1{
+        height: 110px;
+        
+    }
+
+    .section8btn {
+        width: auto !important;
+        height: 33px !important;
+        line-height: 12px;
+        /* font-size: 12px !important; */
+        /* border-radius: 5px !important; */
+    }
+
+
+    .sect8content {
+        padding-left: 0px;
+
+    }
+
+    .sect8content>h1 {
+        width: 200%;
+        font-size: 15px;
+        line-height: 15px;
+        margin: 0px;
+    }
+
+    .section8 {
+        height: 41vh;
+
+    }
+
+    .sect8content>p {
+        font-size: 12px;
+        width: 180%;
+        margin: 0px;
+        line-height: 12px;
+    }
+
+    .section8images {
+        padding-right: 0px;
+        padding-top: 51px;
+    }
+
+    .section8btnp {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 0px;
+
+    }
+
+    .section8btn p{
+        line-height: 0px;
+    }
+
+    .section8btn>div {
+        display: inline-block;
+        line-height: 2px;
+    }
+
+    .section8btn i {
+        /* display: block; */
+        font-size: 15px;
+        margin: 2px;
     }
 
 }
